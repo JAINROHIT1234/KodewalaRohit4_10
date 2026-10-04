@@ -11,6 +11,12 @@ class Super {
 }
 
 
+class child{
+	public void hello() {
+		System.out.println("Hello");
+	}
+}
+
 public class Constructor extends Super  {
 	
 	String userName;

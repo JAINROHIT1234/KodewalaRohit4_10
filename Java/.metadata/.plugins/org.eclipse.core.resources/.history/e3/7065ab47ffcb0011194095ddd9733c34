@@ -1,0 +1,12 @@
+package Day_30_Abstraction;
+
+public class MainYouTube {
+
+	public static void main(String[] args) {
+	System.out.println("You are going to watch youtube Video");
+	YouTube ytb = new YouTube();
+	ytb.watch
+
+	}
+
+}

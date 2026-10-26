@@ -1,0 +1,9 @@
+package Day_33_Polymorphism2;
+
+public class FiveStar extends Chocolate{
+	
+	void taste() {
+		System.out.println("Golden Wrapper and chocolate liquid inside it");
+	}
+
+}

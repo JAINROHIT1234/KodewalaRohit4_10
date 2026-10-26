@@ -1,0 +1,29 @@
+package Conditional_Statement_Practice;
+import java.util.Scanner;
+
+public class LargestOfThree {
+      public static void main(String args[]) {
+    	  Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the value of A:");
+      int a = sc.nextInt();
+      System.out.println("Enter the value of B:");
+      int b = sc.nextInt();
+      System.out.println("Enter the value of C:");
+      int c =sc.nextInt();
+      
+      if(a>b && a>c) {
+    	  System.out.println("A is greater than B and C");
+      }
+      else if () {
+    	  
+    	  
+      }
+      
+  
+  
+  
+      
+    	   
+    	  
+      }
+}

@@ -1,0 +1,15 @@
+package PracticeOOPs;
+
+public class Abstraction {
+	
+	private int balance;
+	
+	public void credit() {
+		
+		
+		
+	}
+	
+	private int checkBalance)
+
+}

@@ -1,0 +1,27 @@
+package PracticeOOPs;
+
+public class Abstraction {
+	
+	private int balance;
+	
+	public void credit() {
+		
+		checkBalance()
+		
+		
+		
+	}
+	
+	private int checkBalance(){
+		
+		return 1234;
+		
+	}
+	
+	private boolean validatePin(String userId) {
+		
+		return true;
+		
+	}
+
+}

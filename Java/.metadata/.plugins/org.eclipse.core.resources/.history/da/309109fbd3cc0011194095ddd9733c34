@@ -1,0 +1,16 @@
+package Day_31_Overriding;
+
+public class MainBankAccountManagmentSystem {
+
+	public static void main(String[] args) {
+		BankAccount bankacc = new BankAccount("Rohit Jain",90000.78);
+		SavingAccount savacc = new SavingAccount("AmarKuswaha",70000.32,1000);
+        BankAccount bankacc1 = new SavingAccount("Rj",85000,2000);
+        System.out.println(bankacc.balance);
+        System.out.println("Interest On Rohit Balance :" + bankacc.calculateInterest(90000.78));
+        bankacc.deposit(5000,"By Rashi jain from Sagar");
+        savacc
+        
+	}
+
+}

@@ -1,0 +1,18 @@
+package Day_31_Overriding;
+
+public class SavingAccount extends BankAccount {
+	
+	double minimumBalance;
+	
+	SavingAccount(String accountHldr, double blnce , double minimumBalance){
+		super(accountHldr,blnce);
+		this.minimumBalance=minimumBalance;	
+	}
+	
+	double calculateInterest(double salary) {
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,40 @@
+package Day_30_Abstraction;
+
+public class Student {
+
+	int subjectA;
+	int subjectB;
+	int subjectC;
+	int subjectD;
+	
+ public Student(int subjectA, int subjectB, int subjectC, int subjectD) {
+	 this.subjectA=subjectA;
+	 this.subjectB=subjectA;
+	 this.subjectC=subjectC;
+	 this.subjectD=subjectD;
+ }
+ 
+ private int calculateTotal(int subjectA, int subjectB , int subjectC , int subjectD) {
+	  int total;
+	  total=subjectA+subjectB+subjectC+subjectD;
+	  System.out.println("The Total of All the subject is :" + total);
+	  return total;	  
+	 
+ }
+	
+ 
+ private double calculatePercentage(int s1 , int s2, int s3 , int s4 ) {
+	  double percentage;
+	  percentage=((s1+s2+s3+s4)/4)*100;
+	  System.out.println("The Percentage is :" + percentage);
+	 return percentage;
+ } 
+ 
+ 
+ public displayResult(int M1 , int ) {
+	 
+	 
+ }
+	
+	
+}

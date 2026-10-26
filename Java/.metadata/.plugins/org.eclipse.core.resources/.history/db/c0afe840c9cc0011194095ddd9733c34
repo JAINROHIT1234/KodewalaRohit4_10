@@ -1,0 +1,14 @@
+package Day_31_Overriding;
+
+public class MainEmployeeSalarySystem {
+
+	public static void main(String[] args) {
+	Employee emp = new Develop();
+	emp.display("RohitJain");
+    e
+	emp.calculateBonus(60050);
+	
+	
+	}
+
+}

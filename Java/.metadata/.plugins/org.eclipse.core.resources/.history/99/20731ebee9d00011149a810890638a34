@@ -1,0 +1,15 @@
+package PracticeOOPs;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		
+		Enapsulation  encp = new Enapsulation();
+		
+		encp.balance=2000;
+		
+		System.out.println(balance);
+
+	}
+
+}

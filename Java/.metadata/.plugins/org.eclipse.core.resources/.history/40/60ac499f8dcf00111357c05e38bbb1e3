@@ -1,0 +1,8 @@
+package Practice_OOPS_Poly;
+
+public class Product {
+	
+	String name;
+	
+
+}

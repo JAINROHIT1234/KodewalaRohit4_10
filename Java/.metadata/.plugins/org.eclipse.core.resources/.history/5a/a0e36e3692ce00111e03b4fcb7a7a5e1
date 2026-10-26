@@ -1,0 +1,9 @@
+package Day_33_Polymorphism2;
+
+public class Chocolate {
+	
+	void taste() {
+		System.out.println("All Chocolate have Some ");
+	}
+
+}

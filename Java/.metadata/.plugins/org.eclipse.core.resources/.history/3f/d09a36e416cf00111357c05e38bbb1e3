@@ -1,0 +1,9 @@
+package Day_33_Polymorphism2;
+
+public class MunchBaffer extends Chocolate {
+	
+	void taste() {
+		System.out.println("Little bit taste of Biscute ");
+	}
+
+}

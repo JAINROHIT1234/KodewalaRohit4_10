@@ -1,0 +1,12 @@
+package Day_30_Abstraction;
+
+public class YouTube {
+
+	public void watchVideo() {
+		
+	}
+	
+	
+	private void openApp()
+	
+}

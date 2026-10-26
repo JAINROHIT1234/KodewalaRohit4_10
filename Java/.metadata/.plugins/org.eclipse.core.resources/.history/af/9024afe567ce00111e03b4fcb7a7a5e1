@@ -1,0 +1,16 @@
+package Day_32_Polymorphism;
+
+public class Card_Payment extends Payment {
+
+	int cardNo = 00001452;
+	
+	void pay(double amount) {
+		
+		System.out.println("Transaction of amount" + amount);
+		System.out.println("Card number : xxxx");
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,22 @@
+package Day_33_Polymorphism2;
+
+public class MainChocolate {
+
+	public static void main(String[] args) {
+		
+		Chocolate_Case bringChoco = new Chocolate_Case();
+		
+		DairyMilk dairyMilk = new DairyMilk();
+		
+		bringChoco.chocoTester(dairyMilk);
+		
+		FiveStar fstar = new FiveStar();
+		
+	    bringChoco.chocoTester(fstar);
+	    
+	    bring
+		
+		
+	}
+
+}

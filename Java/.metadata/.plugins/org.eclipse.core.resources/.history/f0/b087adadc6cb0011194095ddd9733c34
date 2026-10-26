@@ -1,0 +1,11 @@
+package Day_30_Abstraction;
+
+public class MainStudent {
+
+	public static void main(String[] args) {
+		Student stu = new Student(55,56,84,96);
+		stu.displayResult(s, 96, 63, 52);
+		
+	}
+
+}

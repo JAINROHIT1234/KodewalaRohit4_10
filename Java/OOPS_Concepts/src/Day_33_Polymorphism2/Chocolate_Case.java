@@ -1,0 +1,13 @@
+package Day_33_Polymorphism2;
+
+public class Chocolate_Case {
+
+	void chocoTester(Chocolate chocoTest) {
+
+		chocoTest.taste(); // Chocolate chocoTest = new DairyMilk();
+							// Chocolate chocoTest = new FiveStar();
+							// Reference is of Parent class and method call according to the Object pass in
+							// chocoTest() method
+	}
+
+}

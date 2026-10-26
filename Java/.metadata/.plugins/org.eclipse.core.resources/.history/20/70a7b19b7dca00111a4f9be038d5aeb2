@@ -1,0 +1,17 @@
+package Day_29_Inheritance_Override;
+
+public class MainPerson {
+
+	public static void main(String[] args) {
+		Monitor mt = new Monitor("RohitJain",85,true);
+		mt.dislayRole();
+		Person pn = new Person("Amar");
+		pn = new Teacher("SureshBisnoi","Java");
+		pn.displayRole();
+		pn = new Student("Rj",60);
+		pn.displayRole();
+		
+
+	}
+
+}

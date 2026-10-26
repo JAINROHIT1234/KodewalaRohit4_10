@@ -1,0 +1,14 @@
+package Day_30_Abstraction;
+
+public class MainOfAmazon {
+
+	public static void main(String[] args) {
+            Amazon amz = new Amazon();
+            amz.placeOrder("Rohit","BTM,BANGLORE","abc@gmail.com");
+//            amz.addToCart();
+//            amz.viewProduct();
+//            amz.makePayment();
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package Day_32_Polymorphism;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Account acc = new Account(); //Parent class refering 
+		
+		AdminUser addu = new AdminUser();
+		
+		Account acc1 = new AdminUser();
+		
+		AdminUser admu = (AdminUser) new Account();
+
+	}
+
+}

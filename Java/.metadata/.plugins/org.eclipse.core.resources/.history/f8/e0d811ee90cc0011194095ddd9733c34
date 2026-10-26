@@ -1,0 +1,54 @@
+package Day_31_Overriding;
+
+
+/*RULES OF OVERLOADING
+ * IF WE WANT TO OVERLOAD THE FUNCTION WE HAVE TO KEEP THESE THINGS IN OUR MIND 
+ * 1.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+
+
+class Login{
+	
+	
+	public void doLogin(String name , int password) {
+		
+		System.out.println("Login.doLogin()....name and password");
+		
+	}
+	
+	 String doLogin(String gmail , String password) {
+		
+		System.out.println("Login.doLogin()....gmail and password");
+		
+		return"Login successfully";
+	}
+	
+	protected int doLogin(int phoneNo) {
+		
+		System.out.println("Login.doLogin()... phonenumber");
+		
+		return phoneNo;
+		
+	}
+	
+	
+}
+
+public class Overloading_Login {
+
+	public static void main(String[] args) {
+		
+		Login log = new Login();
+		log.doLogin(124526);
+		log.doLogin("Rohit", 12453);
+		log.doLogin("gmail.com","password");
+		
+
+	}
+
+}

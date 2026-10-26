@@ -1,0 +1,10 @@
+package Day_33_Polymorphism2;
+
+public class DebitCardPayment {
+	
+	void doPayment() {
+		
+		System.out.println("DebitCardPayment.doPayment()....By DebitCard");
+	}
+
+}

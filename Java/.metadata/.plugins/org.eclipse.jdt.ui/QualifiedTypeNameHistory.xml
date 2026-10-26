@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Day_11_AccModi.Parent"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.spi.SystemStream"/>
+    <fullyQualifiedTypeName name="Day_17_ExampleOfSuperThis.ElectronicProduct"/>
+    <fullyQualifiedTypeName name="Day_18_If_else.MakeMyTrip"/>
+    <fullyQualifiedTypeName name="DAy_19_Arrays.ArrayUser"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="Day_21_Switch_cases.MainSwitch"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="Day_26_static_block.User"/>
+    <fullyQualifiedTypeName name="Day_26_static_block.LiveUser"/>
+    <fullyQualifiedTypeName name="Day_26_static_block.Instance_init_Block"/>
+    <fullyQualifiedTypeName name="Day_28_Inheritance.SavingAccount"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Day_28_Inheritance.ClothingProduct"/>
+    <fullyQualifiedTypeName name="Day_28_Inheritance.ElectronicProduct"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Day_27_Encapsulation.ShoppingCart"/>
+    <fullyQualifiedTypeName name="Day_28_Inheritance.FullTimeEmp"/>
+    <fullyQualifiedTypeName name="Day_29_Inheritance_Override.Develper"/>
+    <fullyQualifiedTypeName name="Day_29_Inheritance_Override.SavAccount"/>
+    <fullyQualifiedTypeName name="Day_29_Inheritance_Override.PremiumSav"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
+    <fullyQualifiedTypeName name="Day_33_Polymorphism2.Chocolate_Case"/>
+    <fullyQualifiedTypeName name="Day_33_Polymorphism2.DairyMilk"/>
+    <fullyQualifiedTypeName name="Day_33_Polymorphism2.NotificationService"/>
+    <fullyQualifiedTypeName name="Day_33_Polymorphism2.EmailNotification"/>
+    <fullyQualifiedTypeName name="Day_33_Polymorphism2.SMSNotification"/>
+</qualifiedTypeNameHistroy>

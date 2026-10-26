@@ -1,0 +1,26 @@
+package Day_30_Abstraction;
+
+public class YouTube {
+
+	public void watchVideo() {
+		
+		openApp();
+		loadVideo();
+		playVideo();
+		
+	}
+	
+	
+	private void openApp() {
+	  System.out.println("YouTube.openApp()");
+	}
+	
+	private void loadVideo() {
+		System.out.println("YouTube.loadVideo()");		
+	}
+	
+	private void playVideo() {
+		System.out.println("YouTube.playVideo()");	
+	}
+	
+}

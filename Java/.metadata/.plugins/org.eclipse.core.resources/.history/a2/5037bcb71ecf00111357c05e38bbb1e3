@@ -1,0 +1,9 @@
+package Day_33_Polymorphism2;
+
+public class Notification {
+	
+	void send() {
+	
+	}
+
+}

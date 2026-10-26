@@ -1,0 +1,9 @@
+package PracticeOOPs;
+
+public class Enapsulation {
+	
+	public int balance;
+	
+	
+
+}

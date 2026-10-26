@@ -1,0 +1,34 @@
+package Day_18_If_else;
+
+public class MainUtility {
+	
+	public static void main(String args[]) {
+		
+		NumberUtility nu = new NumberUtility();
+		
+		if(nu.isPrime(5)) {
+			
+			System.out.println("This Number is PrimeNumber");
+			
+		}else {
+			
+			System.out.println("This Number is not a Prime Number");
+			
+		}
+		
+		System.out.println("Reverse of that Number is :" + nu.reverse(5628));
+		
+		System.out.println("Original Number is :" + nu.original);
+		
+		if(nu.isPalindrome(12366321)) {
+			System.out.println("This Number is Palindrome");
+		}else {
+			System.out.println("No Palindrome is Form");			
+		}
+
+		
+	    System.out.println("Factorial is :" + nu.factorial(5)); 
+
+		
+	}
+}

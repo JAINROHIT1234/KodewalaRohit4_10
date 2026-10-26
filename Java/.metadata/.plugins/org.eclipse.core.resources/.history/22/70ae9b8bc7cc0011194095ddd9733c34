@@ -1,0 +1,18 @@
+package Day_31_Overriding;
+
+public class Employee {
+
+	
+	String name;
+	double salary;
+	
+	public double calculateSalary(double salary) {
+		return 0.05*salary;
+	}
+	
+	void display(String name) {
+	 System.out.println();
+	}
+	
+	
+}

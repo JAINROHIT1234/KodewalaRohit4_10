@@ -1,0 +1,49 @@
+package Day_32_Polymorphism;
+
+class Employee {
+
+	String name = "Rohit jain";
+
+	void work() {
+		System.out.println("Rohit is Working");
+	}
+
+}
+
+class Developer extends Employee {
+
+	String programmingLanguage = "Java";
+
+	void work() {
+		System.out.println("Developer is Developing software in Java Language");
+	}
+
+}
+
+class Manager extends Employee{
+
+	int teamSize = 8;
+
+	void work() {
+		System.out.println("Manager assign work all the 8 people of the team");
+	}
+
+}
+
+public class EmployeeManagment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       Employee e1 = new Developer();
+       
+       e1.work();
+       
+       Developer dev = 
+       
+       Employee e2 = new Manager();
+       
+       e2.work();
+       
+	}
+
+}

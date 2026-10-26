@@ -1,0 +1,65 @@
+package Day_29_Inheritance_Override;
+
+public class Person {
+
+	String name;
+
+	Person(String name) {
+		this.name = name;
+	}
+
+	void displayRole() {
+		System.out.println("A Person can be Play Anyone's Role");
+	}
+
+}
+
+class Student extends Person {
+
+	int examMarks;
+
+	Student(String name, int examMarks) {
+		super(name);
+		this.examMarks = examMarks;
+	}
+
+	void displayRole() {
+		System.out.println("Student Focus only on Study");
+	}
+
+}
+
+class Monitor extends Student {
+	
+	boolean maintainAttendance;
+	
+	Monitor(String name,int examMarks , boolean maintainAttendance ){
+		super(name,examMarks);
+		this.maintainAttendance=maintainAttendance;
+		
+	}
+	
+	void dislayRole() {
+		System.out.println("Monitor have Power To Punish anyone");
+	}
+	
+	
+}
+
+
+class Teacher extends Person {
+	
+	String subject;
+	 
+	Teacher(String name , String subject){
+		super(name);
+		this.subject=subject;		
+	}
+	
+	void displayRole() {
+		System.out.println("Teacher have ");
+	}
+	
+	
+	
+} 

@@ -1,0 +1,12 @@
+package Conditional_Statement_Practice;
+import java.util.Scanner;
+
+public class Even_Odd {
+   
+	public static void main(String args[]) {
+	  
+		Scanner sc = new Scanner
+		
+	}
+	
+}

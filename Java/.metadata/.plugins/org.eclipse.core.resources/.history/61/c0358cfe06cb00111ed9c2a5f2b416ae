@@ -1,0 +1,74 @@
+package Day_18_If_else;
+
+import java.util.Scanner;
+
+public class SmartBillGenerator {
+
+	public static void main(String args[]) {
+		String name;
+		int noOfUnit;
+		double amountOfBill=0;
+		double amount1=0;
+		double amount2=0;
+        double amount3=0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Consumer Name");
+		name = sc.nextLine();
+		System.out.println("Enter the No. of Units On Meter");
+		noOfUnit = sc.nextInt();
+
+		if (noOfUnit < 0) {
+			System.out.println("Please Enter Units in Positive Number");
+		} else {
+
+//			if (noOfUnit >= 0 && noOfUnit <= 100) {
+//				amountOfBill = noOfUnit * 3;
+//				System.out.println("Bill Amount is :" + amountOfBill);
+//			} else if (noOfUnit > 100 && noOfUnit <= 200) {
+//				amountOfBill = noOfUnit * 5;
+//				System.out.println("Bill Amount is :" + amountOfBill);
+//			} else if (noOfUnit > 200 && noOfUnit <= 249) {
+//				amountOfBill = noOfUnit * 8;
+//				System.out.println("Bill Amount is :" + amountOfBill);
+//			} else if (noOfUnit == 250) {
+//				amountOfBill = 1100;
+//				System.out.println("Your Total Electricity Bill Amount :" + amountOfBill);
+//			}
+			
+			if(noOfUnit>0) {
+				if(noOfUnit<=100) {
+					amount1 = noOfUnit*3; 
+				}else {
+				amount1=100*3;
+				}
+			}
+			
+			if(noOfUnit>100 ) {
+				if(noOfUnit<=200) {
+				noOfUnit=noOfUnit-100;
+				amount2=noOfUnit*5 ;
+				}
+				else {
+					amount2 = 3*100 + 5*200;
+				}
+			}
+			if(noOfUnit>200 ) {
+				if
+				if(noOfUnit<=200) {
+					noOfUnit=noOfUnit-200;
+				}
+				
+				amount3=noOfUnit*8 ;
+			}
+			
+			
+			
+	}
+		System.out.println("The Bill Owner name is :" + name);
+		System.out.println("The ToTal bill according to Slab is :" + amountOfBill);
+		
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,63 @@
+package Day_18_If_else;
+
+import java.util.Scanner;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		String operation=null;
+	
+		while (!operation.equals("Exit")) {
+			
+			System.out.println("1.Addition");
+			System.out.println("2.Subtraction");
+			System.out.println("3.Division");
+			System.out.println("4.Multiplication");
+			System.out.println("5.Exit");
+			
+			int first;
+			System.out.println("Enter First Number");
+			first = sc.nextInt();
+			System.out.println("Enter Second Number");
+			int second = sc.nextInt();
+			System.out.println("Enter the Operation you want to do on Both");
+		    operation = sc.next();
+
+			int result;
+			switch (operation) {
+			case "Addition":
+				result = first + second;
+				System.out.println("The sum is" + result);
+				break;
+			case "Subtraction":
+				result = first - second;
+				System.out.println("The Subtraction is" + result);
+				break;
+			case "Division":
+				if (second < 0) {
+					System.out.println("Below zero not allowed");
+				} else {
+					result = first / second;
+					System.out.println("The Division is " + result);
+				}
+				break;
+			case "Multiplication":
+				result = first * second;
+				System.out.println("The Multiflication is" + result);
+				break;
+			case "Exit":
+				System.out.println("THank you for using calculator");
+				break;
+			default:
+				System.out.println("Please Enter only from above Operation");
+
+			}
+
+		}
+		
+		sc.close();
+
+	}
+}

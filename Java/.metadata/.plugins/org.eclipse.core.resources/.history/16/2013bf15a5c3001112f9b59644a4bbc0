@@ -1,0 +1,13 @@
+package Conditional_Statement_Practice;
+
+public class If_else {
+
+	public static void main(String args[]) {
+		
+		Scanner sc = new Scanner (System.in);
+		int n = 
+		
+		
+	}
+	
+}

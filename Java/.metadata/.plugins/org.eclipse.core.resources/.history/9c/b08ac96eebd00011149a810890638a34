@@ -1,0 +1,8 @@
+package PracticeOOPs;
+
+public class Abstraction {
+	
+	private int balance;
+	
+
+}

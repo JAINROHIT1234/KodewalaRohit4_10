@@ -1,0 +1,39 @@
+package Day_31_Overriding;
+
+public class Account {
+
+	int minBalance=20000;
+	
+	protected void openAccount(int amount , String name) {
+		
+		//100 lines of Code
+		System.out.println("Account.openAccount()");
+		
+		
+		
+	}
+	
+	
+}
+
+//   OVERRIDING CONCEPT - SAME METHOD IN THE PARENT CLASS AND THE CHILD CLASSS 
+// OVERRIDING CONCEPT ONLY WORKS WHEN THESE RULES FOLLOW 
+// 1.METTHOD NAME SHOULD BE SAME 
+// 2.RETURN TYPE SHOULD BE SAME 
+//ACCESS MODIFIER SHOILS BE SAME OR WIDER(WIDER MEANS IF PAREN )
+
+class savingAccount extends Account {
+	
+	int minBalance=10000;
+	
+	public void openAccount(int amt , String nam ) {
+		
+		// 200 lines of code 
+		System.out.println("savingAccount.openAccount()");
+		
+		
+	}
+	
+	
+	
+}

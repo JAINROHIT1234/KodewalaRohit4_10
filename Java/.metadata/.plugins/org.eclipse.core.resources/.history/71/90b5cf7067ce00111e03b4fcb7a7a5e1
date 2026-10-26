@@ -1,0 +1,9 @@
+package Day_32_Polymorphism;
+
+public class Card_Payment extends Payment {
+
+	int cardNo = xxxx1452;
+	
+	
+	
+}

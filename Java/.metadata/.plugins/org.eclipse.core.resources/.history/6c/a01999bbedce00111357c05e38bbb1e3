@@ -1,0 +1,15 @@
+package Day_33_Polymorphism2;
+
+public class MainPayment {
+
+	public static void main(String[] args) {
+		
+		PaymentProcessor paymentProcessor = new PaymentProcessor();
+		
+		CeditCardPayment byCredit = new CreditCardPayment();
+		
+		paymentProcessor.processPayment(byCredit);
+
+	}
+
+}

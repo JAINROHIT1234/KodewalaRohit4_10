@@ -1,0 +1,10 @@
+package Day_33_Polymorphism2;
+
+public class Kitkat {
+	
+	void taste() {
+		System.out.println("Came in Red wrapper and Biscuit ");
+	}
+	
+
+}

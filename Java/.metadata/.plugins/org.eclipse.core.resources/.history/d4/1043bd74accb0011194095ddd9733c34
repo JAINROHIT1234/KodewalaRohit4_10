@@ -1,0 +1,10 @@
+package Day_30_Abstraction;
+
+public class MainOfAmazon {
+
+	public static void main(String[] args) {
+            Amazon amz = new Amazon("Rohit","Banglore,BTM","Jainrohit")		
+
+	}
+
+}

@@ -1,0 +1,67 @@
+package Day_32_Polymorphism;
+
+import java.util.Scanner;
+
+
+public class Payment_System {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Payment p;
+		
+		System.out.println("Choose Payment Method");
+		
+		System.out.println("1.UPI");
+		
+		System.out.println("2.Credit/Debit/Card");
+		
+		System.out.println("Enter Choice : ");
+		
+		int choice = sc.nextInt();
+		
+		System.out.println("Enter Amount");
+		
+		double amount = sc.nextDouble();
+		
+		if(choice==1) {
+			p = new UPI_Payment();
+			
+			
+			if(p instanceof UPI_Payment) {
+				
+				UPI_Payment upi = (UPI_Payment) p;
+				
+				upi.pay(amount);
+				
+				System.out.println("UPI_ID : " + upi.UPI_ID);
+				
+			}
+			
+		}else if (choice==2) {
+			p = new Card_Payment();
+			
+			if(p instanceof Card_Payment) {
+				
+				Card_Payment cardP = (Card_Payment) p;
+				
+				cardP.pay(amount);
+				
+				System.out.println("Last Four Digit Of the Cards :" + cardP.cardNo);
+				
+			}
+			
+		}else {
+			
+			System.out.println("Please cho");
+			
+		}
+		
+		
+		sc.close();
+		
+	}
+
+}

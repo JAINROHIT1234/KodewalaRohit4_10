@@ -1,0 +1,30 @@
+package Intro_Java;
+import java.util.Scanner;
+public class Scann {
+
+	public static void main(String []args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Your Please");
+		
+		int name= sc.nextLine();
+		
+	    System.out.println("Enter the Your Please");
+		
+		int address = sc.nextLine();
+		
+		System.out.println("Enter the Your Please");
+			
+		int rollNo = sc.nextInt();
+		
+		
+		System.out.println(name);
+		System.out.println(address);
+		System.out.println(rollNo);
+		 
+		
+		
+	}
+	
+}

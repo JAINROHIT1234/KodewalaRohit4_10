@@ -1,0 +1,10 @@
+package Practice_OOPS_Poly;
+
+public class Product {
+	
+	String productName;
+	int price;
+	
+	
+
+}

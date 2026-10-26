@@ -1,0 +1,18 @@
+package Intro_Java;
+
+public class Driver21 {
+
+	public static void main(String args) {
+
+     DiscountC dct = new DiscountC() 
+    	 
+	 dct.discountCo(5000);
+	 
+	System.out.println("Use Successfully Booked the Tickets");
+	  
+   } 		
+		
+		
+	}
+
+}

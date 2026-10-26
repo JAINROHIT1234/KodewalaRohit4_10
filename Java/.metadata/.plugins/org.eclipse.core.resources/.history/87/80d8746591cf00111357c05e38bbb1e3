@@ -1,0 +1,25 @@
+package Practice_OOPS_Poly;
+
+public class ShoppingCart {
+
+	int totalAmount = 0;
+
+	void addProduct(Product product, int quantity) {
+
+		if (product.stock > 0 && product >= quantity) {
+
+			stock = stock - quantity;
+
+		}else {
+			
+			System.out.println("Product adding soon in Stock");
+			
+		}
+
+		totalAmount = totalAmount + price * quantity;
+
+		System.out.println("Total Amount After adding this product is :" + totalAmount);
+
+	}
+
+}

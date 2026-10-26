@@ -1,0 +1,9 @@
+package Day_33_Polymorphism2;
+
+public class DairyMilk {
+	
+	void taste() {
+		System.out.println("Brown in Colour and little Bitter");
+	}
+
+}

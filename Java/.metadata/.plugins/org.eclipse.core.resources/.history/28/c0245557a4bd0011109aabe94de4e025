@@ -1,0 +1,20 @@
+package Intro_Java;
+
+public class DiscountC {
+
+	
+	void discountCo(int amount) {
+		if(amount<=5000) {
+			System.out.println("Sorry,Thre is no discount Coupons for you");			
+		}
+		else if (amount>=5000 && amount <=10000) {
+			System.out.println("Congratulation,you save 10% of your Ticket amount");
+				}
+		else {
+			System.out.println("Congratulation,you save 15% of your Ticket amount");
+		}
+		
+	}
+	
+	
+}

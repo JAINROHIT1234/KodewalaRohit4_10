@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/OOPS_Concepts/src/Practice_OOPS_Poly/MainProduct.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.debug.core.terminate.timestamp" value="1792837315792"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Practice_OOPS_Poly.MainProduct"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="OOPS_Concepts"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="OOPS_Concepts"/>
+</launchConfiguration>

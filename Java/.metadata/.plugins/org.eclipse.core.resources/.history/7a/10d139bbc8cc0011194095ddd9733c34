@@ -1,0 +1,16 @@
+package Day_31_Overriding;
+
+public class Develop extends Employee {
+
+	String language;
+	
+	
+	@Override
+  public double calculateBonus(double salary) {
+	  return 0.10*salary;
+	  
+	}
+	
+	void displayAll(String name,)
+	
+}

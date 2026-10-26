@@ -1,0 +1,15 @@
+package Day_33_Polymorphism2;
+
+public class MainNotification {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		NotificationService notify = new NotificationService();
+		
+		EmailNotification emailNot = new Email
+		
+
+	}
+
+}

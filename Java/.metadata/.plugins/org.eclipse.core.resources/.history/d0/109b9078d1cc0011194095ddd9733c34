@@ -1,0 +1,12 @@
+package Day_31_Overriding;
+
+public class SavingAccount {
+	
+	double minimumBalance;
+	
+	SavingAccount(String accountHldr, double balance , double minimumBalance){
+		super
+		
+	}
+
+}

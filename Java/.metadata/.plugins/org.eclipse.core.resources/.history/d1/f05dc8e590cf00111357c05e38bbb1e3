@@ -1,0 +1,19 @@
+package Practice_OOPS_Poly;
+
+public class MainProduct {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Product prod1 = new Product("Laptop",50000,8);
+		Product prod2 = new Product("Mouse",500,10);
+		
+		ShoppingCart shopcart = new ShoppingCart();
+		
+		
+		
+		
+
+	}
+
+}

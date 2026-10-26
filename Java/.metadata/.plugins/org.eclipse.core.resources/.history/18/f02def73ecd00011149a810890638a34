@@ -1,0 +1,13 @@
+package PracticeOOPs;
+
+public class Driver1 {
+
+	public static void main(String[] args) {
+		
+		Abstraction abt = new Abstraction();
+		
+		abt
+
+	}
+
+}

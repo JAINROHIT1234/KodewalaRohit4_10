@@ -1,0 +1,9 @@
+package Day_32_Polymorphism;
+
+public class Payment {
+	
+	double pay(double amount) {
+		
+	}
+
+}

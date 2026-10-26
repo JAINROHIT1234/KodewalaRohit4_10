@@ -1,0 +1,42 @@
+package Day_18_If_else;
+import java.util.Scanner;
+
+public class NumberAnalysis {
+
+	public static void main(String[] args) {
+		int num=0;
+		int sum=0;
+		int count=0;
+		int lastDigit;
+		
+		
+		
+		Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Number");
+        num=sc.nextInt();
+        int original=num;
+         if(num%2==0) {
+        	System.out.println("Even");
+        }else {
+        	System.out.println("Odd");
+        }
+        
+        while(num!=0) {
+        	int mod;
+        	mod=num%10;
+        	sum = sum + mod;
+        	num=num/10;
+        	count++;
+        }
+        
+        if(sum%3==0) {
+        	System.out.println("This is Divisible by 3 also");
+        }
+        
+        System.out.println("Sum of all the digit is " + sum);
+        System.out.println("The count of the digit in numebr is " + count);
+		
+
+	}
+
+}

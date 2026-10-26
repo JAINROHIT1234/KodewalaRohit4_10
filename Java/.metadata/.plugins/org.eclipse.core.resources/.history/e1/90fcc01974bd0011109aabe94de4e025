@@ -1,0 +1,31 @@
+package Intro_Java;
+import java.util.Scanner;
+
+
+public class LuckyNo {
+	
+	int UserEnter ;
+	int LuckyNo = 15 ;
+
+Scanner sc = new Scanner(System.in);
+ 
+
+while(LuckyNo != UserEnter) {
+	
+	System.out.println("ENter the user number");
+	UserEnter=sc.nextInt();
+	
+	if(LuckyNo == UserEnter) {
+		
+		System.out.println("You win !!");
+		
+	}
+	else {
+		
+		System.out.println("Enter again please");
+	}
+	
+	
+}
+	
+}}

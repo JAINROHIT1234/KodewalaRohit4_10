@@ -1,0 +1,9 @@
+package Day_32_Polymorphism;
+
+public class UPI_Payment extends Payment {
+
+	void  pay(double ) {
+		System.out.println();
+	}
+	
+}

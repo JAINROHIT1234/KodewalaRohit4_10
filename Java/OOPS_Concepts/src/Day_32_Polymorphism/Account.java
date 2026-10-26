@@ -1,0 +1,17 @@
+package Day_32_Polymorphism;
+
+public class Account {
+	
+	void showaName() {
+		System.out.println("My name is Rohit jain");
+	}
+
+}
+
+class AdminUser extends Account{
+	
+	void showaName() {
+		System.out.println("My name is Rohit jain");
+	}
+	
+}

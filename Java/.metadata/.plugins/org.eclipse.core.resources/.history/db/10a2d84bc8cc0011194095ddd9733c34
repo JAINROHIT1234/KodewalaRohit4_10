@@ -1,0 +1,11 @@
+package Day_31_Overriding;
+
+public class Develop extends Employee {
+
+	String language;
+	
+	double calculateSalary(int salary) {
+	  return 0.10*salary;
+	}
+	
+}

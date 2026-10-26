@@ -1,0 +1,27 @@
+package Day_31_Overriding;
+
+public class BankAccount {
+
+	String accountHolder;
+	double balance;
+	
+    BankAccount(String accountHolder, double balance){
+    	this.accountHolder=accountHolder;
+    	this.balance=balance;	
+    }
+    
+    void deposit(int amount) {
+    	
+    	balance = balance + amount ;
+    	
+    }
+    
+    void deposit(int amount, String discription) {
+    	
+    	System.out.println("Deposited via or For : " + discription);
+    	 balance = balance + amount ;
+    	 System.out.println("Amount deposited ");
+    	System.out.println("Total Balance : " + balance);
+    }
+	
+}
